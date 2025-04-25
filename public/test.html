@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cypress Test Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .success {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cypress Test Page</h1>
+  <p>This is a simple static HTML file that should always load successfully.</p>
+  <p class="success">If you can see this text, your server is running!</p>
+  <div id="output">Server is working</div>
+  <button id="testButton">Click Me</button>
+
+  <script>
+    // Simple interaction for testing
+    document.getElementById('testButton').addEventListener('click', function() {
+      document.getElementById('output').textContent = 'Button clicked: ' + new Date().toISOString();
+    });
+  </script>
+</body>
+</html> 

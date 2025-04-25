@@ -1,0 +1,488 @@
+2025-04-15T15:29:44.956Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:29:44.961Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:29:45.593Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:29:46.960Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T15:40:02.262Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:40:02.268Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:40:02.473Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:40:06.915Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T15:40:13.436Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:40:13.445Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:40:14.000Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:40:15.037Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T15:40:25.313Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:40:25.315Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:40:25.808Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:40:26.717Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T15:45:57.942Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:45:57.951Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:45:58.997Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:46:06.386Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T15:46:13.881Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:46:13.883Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:46:14.966Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:46:16.283Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T15:53:35.868Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:53:35.871Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:53:37.574Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:53:41.690Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T15:55:25.980Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:55:25.983Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:55:36.054Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:55:37.583Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T15:56:04.035Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:56:04.038Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:56:05.911Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:56:06.821Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T15:59:18.332Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T15:59:18.336Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T15:59:19.194Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T15:59:22.320Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T16:22:22.608Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T16:22:22.614Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T16:22:24.568Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T16:22:26.452Z INFO [DB] Failed to create exec_sql function, manual intervention required
+---
+2025-04-15T16:27:08.502Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T16:27:08.507Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T16:27:09.044Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T16:27:09.875Z INFO [DB] Manual creation of exec_sql function required
+---
+2025-04-15T16:27:09.876Z INFO [DB] Proceeding with limited functionality...
+---
+2025-04-15T16:42:06.792Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T16:42:06.796Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T16:42:07.301Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T16:42:10.092Z INFO [DB] Manual creation of exec_sql function required
+---
+2025-04-15T16:42:10.094Z INFO [DB] Proceeding with limited functionality...
+---
+2025-04-15T16:42:24.077Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T16:42:24.079Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T16:42:25.037Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T16:42:27.522Z INFO [DB] Manual creation of exec_sql function required
+---
+2025-04-15T16:42:27.531Z INFO [DB] Proceeding with limited functionality...
+---
+2025-04-15T16:43:02.609Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T16:43:02.611Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T16:43:03.533Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T16:43:06.133Z INFO [DB] Manual creation of exec_sql function required
+---
+2025-04-15T16:43:06.136Z INFO [DB] Proceeding with limited functionality...
+---
+2025-04-15T16:43:49.504Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T16:43:49.506Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T16:43:50.224Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T16:43:51.607Z INFO [DB] Manual creation of exec_sql function required
+---
+2025-04-15T16:43:51.608Z INFO [DB] Proceeding with limited functionality...
+---
+2025-04-15T16:47:29.712Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-15T16:47:29.717Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-15T16:47:29.865Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-15T16:47:31.153Z INFO [DB] Manual creation of exec_sql function required
+---
+2025-04-15T16:47:31.153Z INFO [DB] Proceeding with limited functionality...
+---
+2025-04-16T07:05:04.090Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-16T07:05:04.093Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-16T07:05:04.937Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-16T07:05:05.350Z INFO [DB] Manual creation of exec_sql function required
+---
+2025-04-16T07:05:05.350Z INFO [DB] Proceeding with limited functionality...
+---
+2025-04-16T12:24:17.894Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-16T12:24:17.895Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-16T12:24:18.369Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-16T12:24:18.790Z INFO [DB] Manual creation of exec_sql function required
+---
+2025-04-16T12:24:18.790Z INFO [DB] Proceeding with limited functionality...
+---
+2025-04-16T16:19:46.841Z INFO [DB] Database fix API called
+Data: {
+  "url": "http://localhost:3000/api/fix-database"
+}
+---
+2025-04-16T16:19:46.843Z INFO [DB] Ensuring exec_sql function exists...
+---
+2025-04-16T16:19:47.078Z INFO [DB] Creating exec_sql function
+Data: {
+  "error": {
+    "code": "42804",
+    "details": "Returned type integer does not match expected type json in column 1.",
+    "hint": null,
+    "message": "structure of query does not match function result type"
+  }
+}
+---
+2025-04-16T16:19:48.182Z INFO [DB] Manual creation of exec_sql function required
+---
+2025-04-16T16:19:48.182Z INFO [DB] Proceeding with limited functionality...
+---
+2025-04-18T12:30:13.869Z INFO  Setting auth cookie via API
+---
+2025-04-18T12:32:36.575Z INFO  Setting auth cookie via API
+---
+2025-04-18T12:39:36.332Z INFO  Setting firebase auth cookie via API
+---
+2025-04-18T12:43:50.092Z INFO  Setting firebase auth cookie via API
+---
+2025-04-18T12:43:51.378Z INFO  Auth sync route invoked
+---
+2025-04-18T12:43:51.380Z INFO  Attempting to verify Firebase token
+---
+2025-04-18T12:43:51.664Z INFO  Firebase token verified for UID: aEysG7nCITRaMyBYmvDtY3wvUcl1, Role: viewer
+---
+2025-04-18T12:43:51.664Z INFO  Auth sync: Parsed request body (for name fallback)
+---
+2025-04-18T12:43:51.664Z INFO  Firebase UID aEysG7nCITRaMyBYmvDtY3wvUcl1 is not a UUID, checking mapping.
+---
+2025-04-18T12:43:52.684Z INFO  Found existing mapping: aEysG7nCITRaMyBYmvDtY3wvUcl1 -> 80dc21a4-08e9-45b0-9576-a6a1733a1323
+---
+2025-04-18T12:43:52.684Z INFO  Upserting user data for Supabase ID: 80dc21a4-08e9-45b0-9576-a6a1733a1323 with role: viewer
+---
+2025-04-18T12:45:29.944Z INFO  Setting firebase auth cookie via API
+---
+2025-04-18T12:45:31.088Z INFO  Auth sync route invoked
+---
+2025-04-18T12:45:31.089Z INFO  Attempting to verify Firebase token
+---
+2025-04-18T12:45:31.365Z INFO  Firebase token verified for UID: aEysG7nCITRaMyBYmvDtY3wvUcl1, Role: viewer
+---
+2025-04-18T12:45:31.366Z INFO  Auth sync: Parsed request body (for name fallback)
+---
+2025-04-18T12:45:31.366Z INFO  Firebase UID aEysG7nCITRaMyBYmvDtY3wvUcl1 is not a UUID, checking mapping.
+---
+2025-04-18T12:45:31.639Z INFO  Found existing mapping: aEysG7nCITRaMyBYmvDtY3wvUcl1 -> 80dc21a4-08e9-45b0-9576-a6a1733a1323
+---
+2025-04-18T12:45:31.640Z INFO  Upserting user data for Supabase ID: 80dc21a4-08e9-45b0-9576-a6a1733a1323 with role: viewer
+---
+2025-04-18T12:45:36.179Z INFO  Setting firebase auth cookie via API
+---
+2025-04-18T12:45:36.500Z INFO  Auth sync route invoked
+---
+2025-04-18T12:45:36.502Z INFO  Attempting to verify Firebase token
+---
+2025-04-18T12:45:36.504Z INFO  Firebase token verified for UID: aEysG7nCITRaMyBYmvDtY3wvUcl1, Role: viewer
+---
+2025-04-18T12:45:36.504Z INFO  Auth sync: Parsed request body (for name fallback)
+---
+2025-04-18T12:45:36.506Z INFO  Firebase UID aEysG7nCITRaMyBYmvDtY3wvUcl1 is not a UUID, checking mapping.
+---
+2025-04-18T12:45:36.791Z INFO  Found existing mapping: aEysG7nCITRaMyBYmvDtY3wvUcl1 -> 80dc21a4-08e9-45b0-9576-a6a1733a1323
+---
+2025-04-18T12:45:36.791Z INFO  Upserting user data for Supabase ID: 80dc21a4-08e9-45b0-9576-a6a1733a1323 with role: viewer
+---
+2025-04-18T12:46:10.717Z INFO  Setting firebase auth cookie via API
+---
+2025-04-18T12:46:11.008Z INFO  Auth sync route invoked
+---
+2025-04-18T12:46:11.010Z INFO  Attempting to verify Firebase token
+---
+2025-04-18T12:46:11.015Z INFO  Firebase token verified for UID: aEysG7nCITRaMyBYmvDtY3wvUcl1, Role: viewer
+---
+2025-04-18T12:46:11.016Z INFO  Auth sync: Parsed request body (for name fallback)
+---
+2025-04-18T12:46:11.016Z INFO  Firebase UID aEysG7nCITRaMyBYmvDtY3wvUcl1 is not a UUID, checking mapping.
+---
+2025-04-18T12:46:11.267Z INFO  Found existing mapping: aEysG7nCITRaMyBYmvDtY3wvUcl1 -> 80dc21a4-08e9-45b0-9576-a6a1733a1323
+---
+2025-04-18T12:46:11.267Z INFO  Upserting user data for Supabase ID: 80dc21a4-08e9-45b0-9576-a6a1733a1323 with role: viewer
+---
+2025-04-18T12:46:30.067Z INFO  Setting firebase auth cookie via API
+---
+2025-04-18T12:46:30.151Z INFO  Auth sync route invoked
+---
+2025-04-18T12:46:30.152Z INFO  Attempting to verify Firebase token
+---
+2025-04-18T12:46:30.153Z INFO  Firebase token verified for UID: aEysG7nCITRaMyBYmvDtY3wvUcl1, Role: viewer
+---
+2025-04-18T12:46:30.153Z INFO  Auth sync: Parsed request body (for name fallback)
+---
+2025-04-18T12:46:30.153Z INFO  Firebase UID aEysG7nCITRaMyBYmvDtY3wvUcl1 is not a UUID, checking mapping.
+---
+2025-04-18T12:46:30.466Z INFO  Found existing mapping: aEysG7nCITRaMyBYmvDtY3wvUcl1 -> 80dc21a4-08e9-45b0-9576-a6a1733a1323
+---
+2025-04-18T12:46:30.466Z INFO  Upserting user data for Supabase ID: 80dc21a4-08e9-45b0-9576-a6a1733a1323 with role: viewer
+---
+2025-04-18T12:50:03.040Z INFO  Existing tables:
+---
+2025-04-18T12:50:03.769Z INFO  Tables after fixes:
+---

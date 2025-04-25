@@ -1,0 +1,15 @@
+
+
+--- DEBUG SESSION STARTED AT 2025-04-15T14:53:26.789Z ---
+
+   the --inspect option was detected, the Next.js router server should be inspected at 9230.
+   ▲ Next.js 15.3.0
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.1.195:3001
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1686ms
+[?25h
+
+--- Next.js process exited with code 0 at 2025-04-15T14:53:32.073Z ---

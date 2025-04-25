@@ -1,0 +1,576 @@
+/* Import the Inter font for better readability */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Base styling improvements with more vibrant colors and less gray */
+:root {
+  --color-primary: 79, 70, 229;     /* indigo-600 */
+  --color-primary-light: 224, 231, 255; /* indigo-100 */
+  --color-primary-dark: 55, 48, 163;  /* indigo-800 */
+  
+  --color-text-primary: 30, 41, 59;   /* slate-800 instead of gray-900 */
+  --color-text-secondary: 71, 85, 105; /* slate-600 instead of gray-600 */
+  
+  --color-bg-primary: 255, 255, 255;  /* white */
+  --color-bg-secondary: 248, 250, 252; /* slate-50 instead of gray-50 */
+  
+  --color-accent-1: 56, 189, 248;    /* sky-400 - for accents */
+  --color-accent-2: 251, 113, 133;    /* rose-400 - for secondary accents */
+  --color-accent-3: 52, 211, 153;     /* emerald-400 - for success elements */
+  
+  --color-border: 226, 232, 240;      /* slate-200 instead of gray-200 */
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dark {
+  --color-primary: 129, 140, 248;      /* indigo-400 instead of indigo-500 */
+  --color-primary-light: 67, 56, 202;  /* indigo-700 instead of indigo-900 */
+  --color-primary-dark: 199, 210, 254; /* indigo-200 instead of indigo-300 */
+  
+  --color-text-primary: 241, 245, 249; /* slate-100 instead of gray-50 */
+  --color-text-secondary: 226, 232, 240; /* slate-200 instead of gray-300 */
+  
+  --color-bg-primary: 15, 23, 42;     /* slate-900 instead of gray-800 */
+  --color-bg-secondary: 2, 6, 23;     /* slate-950 instead of gray-900 */
+  
+  --color-accent-1: 2, 132, 199;       /* sky-700 - for accents */
+  --color-accent-2: 225, 29, 72;       /* rose-600 - for secondary accents */
+  --color-accent-3: 5, 150, 105;       /* emerald-600 - for success elements */
+  
+  --color-border: 51, 65, 85;         /* slate-700 instead of gray-700 */
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* Apply Inter font to the whole app for better readability */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  color: rgb(var(--color-text-primary));
+  background-color: rgb(var(--color-bg-secondary));
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Card styling enhancements with reduced gray usage */
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(var(--color-border), 0.7);
+  box-shadow: var(--shadow);
+  transition: all 0.2s ease;
+}
+
+.glass-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  border-color: rgba(var(--color-primary), 0.5);
+}
+
+.glass-card-dark {
+  background-color: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(var(--color-border), 0.7);
+  box-shadow: var(--shadow);
+  transition: all 0.2s ease;
+}
+
+.glass-card-dark:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  border-color: rgba(var(--color-primary), 0.5);
+}
+
+/* Improve button styling */
+button {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  transition: all 0.2s ease;
+}
+
+/* Media caption input styling for better readability */
+.media-caption-input {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: rgb(var(--color-text-primary));
+  border: 2px solid rgba(var(--color-border), 1);
+  border-radius: 0.375rem;
+  background-color: rgb(var(--color-bg-primary));
+  padding: 0.625rem 0.75rem;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.media-caption-input:focus {
+  border-color: rgb(var(--color-primary));
+  box-shadow: 0 0 0 3px rgba(var(--color-primary), 0.25);
+  outline: none;
+}
+
+/* Caption highlight animation for improved UX */
+.caption-highlight {
+  animation: pulse-highlight 2s ease-in-out;
+  border-color: rgb(var(--color-primary)) !important;
+  box-shadow: 0 0 0 3px rgba(var(--color-primary), 0.25) !important;
+}
+
+@keyframes pulse-highlight {
+  0% { background-color: rgba(var(--color-primary), 0.05); }
+  50% { background-color: rgba(var(--color-primary), 0.15); }
+  100% { background-color: transparent; }
+}
+
+/* Improve text input and text area styling generally */
+input[type="text"],
+textarea {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: rgb(var(--color-text-primary));
+  background-color: rgb(var(--color-bg-primary));
+  border: 1px solid rgba(var(--color-border), 1);
+  transition: all 0.2s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: rgb(var(--color-primary));
+  box-shadow: 0 0 0 3px rgba(var(--color-primary), 0.25);
+  outline: none;
+}
+
+/* Make headings more readable */
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(var(--color-text-primary));
+  font-weight: 600;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+/* Enhanced button styling */
+.btn-primary {
+  background-color: rgb(var(--color-primary));
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  border: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+  background-color: rgba(var(--color-primary), 0.9);
+  transform: translateY(-1px);
+}
+
+.btn-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(var(--color-primary), 0.3);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: rgb(var(--color-primary));
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+  border: 1px solid rgb(var(--color-primary));
+}
+
+.btn-secondary:hover {
+  background-color: rgba(var(--color-primary), 0.1);
+}
+
+.btn-secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(var(--color-primary), 0.2);
+}
+
+/* Custom scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(var(--color-primary), 0.5) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(var(--color-primary), 0.5);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(var(--color-primary), 0.7);
+}
+
+/* Dark mode button with hover effect */
+.dark-mode-toggle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  color: rgb(var(--color-text-secondary));
+  background-color: transparent;
+}
+
+.dark-mode-toggle:hover {
+  background-color: rgba(var(--color-primary), 0.1);
+  color: rgb(var(--color-primary));
+}
+
+.dark .dark-mode-toggle:hover {
+  background-color: rgba(var(--color-primary-dark), 0.2);
+  color: rgb(var(--color-primary-dark));
+}
+
+/* Custom transitions */
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Dark Mode Styling */
+.dark {
+  color-scheme: dark;
+}
+
+.dark body {
+  background-color: rgb(var(--color-bg-secondary));
+  color: rgb(var(--color-text-primary));
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: #f9fafb;
+}
+
+.dark p {
+  color: #e5e7eb;
+}
+
+/* Dark mode inputs */
+.dark .media-caption-input {
+  background-color: #1f2937;
+  color: #f3f4f6;
+  border-color: #374151;
+}
+
+.dark .media-caption-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+/* Dark mode buttons */
+.dark button:not(.btn-primary):not(.btn-secondary) {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  border-color: #374151;
+}
+
+.dark button:not(.btn-primary):not(.btn-secondary):hover {
+  background-color: #374151;
+}
+
+/* Dark mode cards */
+.dark .bg-white {
+  background-color: #1f2937;
+}
+
+.dark .border-gray-300 {
+  border-color: #374151;
+}
+
+.dark .text-gray-900 {
+  color: #f9fafb;
+}
+
+.dark .text-gray-800 {
+  color: #f3f4f6;
+}
+
+.dark .text-gray-700 {
+  color: #e5e7eb;
+}
+
+.dark .text-gray-600 {
+  color: #d1d5db;
+}
+
+.dark .text-gray-500 {
+  color: #9ca3af;
+}
+
+.dark .bg-gray-100 {
+  background-color: #1f2937;
+}
+
+.dark .bg-gray-50 {
+  background-color: #111827;
+}
+
+/* Dark mode button indigo theme */
+.dark .bg-indigo-600 {
+  background-color: #4f46e5;
+}
+
+.dark .hover\:bg-indigo-100:hover {
+  background-color: #312e81;
+}
+
+.dark .hover\:text-indigo-700:hover {
+  color: #c7d2fe;
+}
+
+/* Replace gray with slate and add more vibrant accents */
+.dark .bg-gray-900 {
+  background-color: rgb(var(--color-bg-secondary));
+}
+
+.dark .bg-gray-800 {
+  background-color: rgb(var(--color-bg-primary));
+}
+
+.dark .bg-gray-700 {
+  background-color: rgba(var(--color-primary-light), 0.2);
+}
+
+.dark .text-gray-300 {
+  color: rgb(var(--color-text-secondary));
+}
+
+.dark .text-gray-200 {
+  color: rgb(var(--color-text-primary));
+}
+
+.dark .border-gray-700 {
+  border-color: rgba(var(--color-border), 0.7);
+}
+
+/* Light mode replacement for gray */
+.bg-gray-50 {
+  background-color: rgb(var(--color-bg-secondary));
+}
+
+.bg-gray-100 {
+  background-color: rgba(var(--color-primary-light), 0.1);
+}
+
+.text-gray-600 {
+  color: rgb(var(--color-text-secondary));
+}
+
+.text-gray-700 {
+  color: rgb(var(--color-text-primary));
+}
+
+.text-gray-900 {
+  color: rgb(var(--color-text-primary));
+}
+
+.border-gray-200 {
+  border-color: rgba(var(--color-border), 0.7);
+}
+
+.border-gray-300 {
+  border-color: rgba(var(--color-primary), 0.2);
+}
+
+/* Custom backgrounds for cards and sections */
+.section-bg {
+  background: linear-gradient(135deg, rgba(var(--color-bg-primary), 0.95), rgba(var(--color-bg-primary), 0.85));
+}
+
+.card-gradient {
+  background: linear-gradient(to bottom right, 
+    rgba(var(--color-primary), 0.05), 
+    rgba(var(--color-accent-1), 0.05));
+}
+
+.dark .card-gradient {
+  background: linear-gradient(to bottom right, 
+    rgba(var(--color-primary), 0.15), 
+    rgba(var(--color-accent-1), 0.05));
+}
+
+/* Active item styling with color */
+.active-item {
+  background-color: rgba(var(--color-primary), 0.1);
+  border-left: 3px solid rgb(var(--color-primary));
+}
+
+/* Import Inter font for better typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-light: #e0e7ff;
+  --primary-dark: #3730a3;
+  --danger: #ef4444;
+  --danger-hover: #dc2626;
+  --success: #10b981;
+  --success-hover: #059669;
+  --warning: #f59e0b;
+  --warning-hover: #d97706;
+}
+
+/* Base styles and dark mode */
+html {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.dark body {
+  @apply bg-slate-900 text-slate-100;
+}
+
+/* Glass card styling */
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(209, 213, 219, 0.7);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.glass-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.dark .glass-card-dark {
+  background-color: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(51, 65, 85, 0.7);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -2px rgba(0, 0, 0, 0.2);
+}
+
+.dark .glass-card-dark:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -4px rgba(0, 0, 0, 0.2);
+}
+
+/* Media caption input styling with better readability */
+.media-caption-input {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  font-size: 1rem;
+  color: #111827; /* Dark text for better contrast */
+  border: 2px solid #d1d5db;
+  border-radius: 0.375rem;
+  background-color: white;
+  padding: 0.625rem 0.75rem;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.dark .media-caption-input {
+  color: #f3f4f6;
+  background-color: #1e293b;
+  border-color: #475569;
+}
+
+.media-caption-input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.25);
+  outline: none;
+}
+
+.dark .media-caption-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+/* Caption highlight animation */
+@keyframes highlightPulse {
+  0% { box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(79, 70, 229, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(79, 70, 229, 0); }
+}
+
+.highlight-caption {
+  animation: highlightPulse 1.5s ease-out 1;
+}
+
+/* Floating Navigation styling */
+.floating-nav {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(209, 213, 219, 0.7);
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.05), 0 -2px 4px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dark .floating-nav {
+  background: rgba(15, 23, 42, 0.9);
+  border-top: 1px solid rgba(51, 65, 85, 0.7);
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling improvements */
+.btn {
+  @apply inline-flex items-center justify-center rounded-md font-medium transition-colors duration-150 shadow-sm;
+}
+
+.btn-primary {
+  @apply text-white bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600;
+}
+
+.btn-secondary {
+  @apply text-slate-800 bg-white hover:bg-slate-100 dark:text-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600
+         border border-slate-300 dark:border-slate-600;
+}
+
+.btn-danger {
+  @apply text-white bg-rose-600 hover:bg-rose-700 dark:bg-rose-500 dark:hover:bg-rose-600;
+}
+
+.btn-sm {
+  @apply px-2.5 py-1.5 text-sm;
+}
+
+.btn-md {
+  @apply px-4 py-2 text-sm;
+}
+
+.btn-lg {
+  @apply px-5 py-2.5 text-base;
+}
+
+/* Step number pill in navigation */
+.step-number-pill {
+  @apply flex items-center justify-center min-w-[1.75rem] h-7 px-2 rounded-full 
+         bg-indigo-600 dark:bg-indigo-500 text-white font-medium text-sm shadow-sm;
+}
+
+/* Text input and textarea styling */
+.form-input,
+.form-textarea {
+  @apply block w-full rounded-md border-slate-300 dark:border-slate-600 
+         bg-white dark:bg-slate-800 text-slate-900 dark:text-white
+         focus:border-indigo-500 focus:ring-indigo-500 dark:focus:border-indigo-400 dark:focus:ring-indigo-400
+         shadow-sm transition-colors;
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  @apply p-2 rounded-full text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300
+         hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors;
+}
+
+/* Tailwind utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 

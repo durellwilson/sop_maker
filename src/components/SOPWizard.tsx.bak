@@ -1,0 +1,6 @@
+"use client";
+
+import SOPWizard from './SOPWizard';
+
+// Re-export the component by default
+export default SOPWizard;

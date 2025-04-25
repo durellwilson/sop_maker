@@ -1,0 +1,830 @@
+
+
+--- DEBUG SESSION STARTED AT 2025-04-15T14:53:26.789Z ---
+
+Debugger listening on ws://127.0.0.1:9229/ec017f0f-69bd-4f58-964a-d94c393009c5
+For help, see: https://nodejs.org/en/docs/inspector
+Starting inspector on 127.0.0.1:9229 failed: address already in use
+ ⚠ Port 3000 is in use, using available port 3001 instead.
+
+--- Next.js process exited with code 0 at 2025-04-15T14:53:32.073Z ---
+2025-04-15T15:29:46.727Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T15:40:04.649Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T15:40:14.899Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T15:40:26.463Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T15:46:05.872Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T15:46:15.452Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T15:53:41.245Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T15:55:37.316Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T15:56:06.603Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T15:59:22.051Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T16:22:25.501Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T16:27:09.637Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T16:42:09.887Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T16:42:26.731Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T16:43:05.622Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T16:43:51.464Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-15T16:47:30.926Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-16T07:05:05.297Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-16T12:24:18.750Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-16T16:19:48.052Z ERROR [DB] exec_sql function created but not working
+Error: structure of query does not match function result type
+Stack: Error: structure of query does not match function result type
+    at DbTroubleshooter.ensureExecSqlFunction (webpack-internal:///(rsc)/./src/utils/db-troubleshooter.ts:192:113)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async eval (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:36:31)
+    at async eval (webpack-internal:///(rsc)/./src/utils/api-error-handler.ts:104:20)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T12:43:52.920Z ERROR  Auth sync: Error upserting user data
+Error: Could not find the 'role' column of 'users' in the schema cache
+Stack: undefined
+---
+2025-04-18T12:43:52.922Z ERROR  Auth sync: Unhandled error during sync process
+Error: Failed to sync user data
+Stack: ApiError: Failed to sync user data
+    at POST (webpack-internal:///(rsc)/./src/app/api/auth/sync/route.ts:130:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T12:45:31.846Z ERROR  Auth sync: Error upserting user data
+Error: Could not find the 'role' column of 'users' in the schema cache
+Stack: undefined
+---
+2025-04-18T12:45:31.847Z ERROR  Auth sync: Unhandled error during sync process
+Error: Failed to sync user data
+Stack: ApiError: Failed to sync user data
+    at POST (webpack-internal:///(rsc)/./src/app/api/auth/sync/route.ts:130:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T12:45:36.930Z ERROR  Auth sync: Error upserting user data
+Error: Could not find the 'role' column of 'users' in the schema cache
+Stack: undefined
+---
+2025-04-18T12:45:36.931Z ERROR  Auth sync: Unhandled error during sync process
+Error: Failed to sync user data
+Stack: ApiError: Failed to sync user data
+    at POST (webpack-internal:///(rsc)/./src/app/api/auth/sync/route.ts:130:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T12:46:11.398Z ERROR  Auth sync: Error upserting user data
+Error: Could not find the 'role' column of 'users' in the schema cache
+Stack: undefined
+---
+2025-04-18T12:46:11.398Z ERROR  Auth sync: Unhandled error during sync process
+Error: Failed to sync user data
+Stack: ApiError: Failed to sync user data
+    at POST (webpack-internal:///(rsc)/./src/app/api/auth/sync/route.ts:130:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T12:46:30.587Z ERROR  Auth sync: Error upserting user data
+Error: Could not find the 'role' column of 'users' in the schema cache
+Stack: undefined
+---
+2025-04-18T12:46:30.587Z ERROR  Auth sync: Unhandled error during sync process
+Error: Failed to sync user data
+Stack: ApiError: Failed to sync user data
+    at POST (webpack-internal:///(rsc)/./src/app/api/auth/sync/route.ts:130:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T12:50:02.652Z ERROR  Error fixing exec_sql function:
+Error: undefined
+Stack: undefined
+---
+2025-04-18T12:50:03.038Z ERROR  Error getting tables:
+Error: Could not find the function public.postgres_query(query) in the schema cache
+Stack: undefined
+---
+2025-04-18T12:50:03.141Z ERROR  Error checking if users table exists:
+Error: Could not find the function public.postgres_query(query) in the schema cache
+Stack: undefined
+---
+2025-04-18T12:50:03.282Z ERROR  Error checking if sops table exists:
+Error: Could not find the function public.postgres_query(query) in the schema cache
+Stack: undefined
+---
+2025-04-18T12:50:03.379Z ERROR  Error checking if steps table exists:
+Error: Could not find the function public.postgres_query(query) in the schema cache
+Stack: undefined
+---
+2025-04-18T12:50:03.525Z ERROR  Error checking if media table exists:
+Error: Could not find the function public.postgres_query(query) in the schema cache
+Stack: undefined
+---
+2025-04-18T12:50:03.700Z ERROR  Failed to create system user:
+Error: new row violates row-level security policy for table "users"
+Stack: undefined
+---
+2025-04-18T12:50:03.769Z ERROR  Error getting tables:
+Error: Could not find the function public.postgres_query(query) in the schema cache
+Stack: undefined
+---
+2025-04-18T12:50:55.396Z ERROR  Error creating users table:
+Error: undefined
+Stack: undefined
+---
+2025-04-18T12:50:55.398Z ERROR  Error creating sops table:
+Error: undefined
+Stack: undefined
+---
+2025-04-18T12:50:55.399Z ERROR  Error creating steps table:
+Error: undefined
+Stack: undefined
+---
+2025-04-18T12:50:55.399Z ERROR  Error creating media table:
+Error: undefined
+Stack: undefined
+---
+2025-04-18T12:50:55.482Z ERROR  Error creating system user:
+Error: undefined
+Stack: undefined
+---
+2025-04-18T12:50:55.482Z ERROR  Error creating indices:
+Error: undefined
+Stack: undefined
+---
+2025-04-18T12:50:55.482Z ERROR  Error enabling RLS:
+Error: undefined
+Stack: undefined
+---
+2025-04-18T15:11:07.271Z ERROR  Error enabling UUID extension:
+Error: undefined
+Stack: undefined
+---
+2025-04-18T15:11:07.273Z ERROR  SQL execution error:
+Error: supabase.rpc(...).catch is not a function
+Stack: TypeError: supabase.rpc(...).catch is not a function
+    at executeSql (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:347:17)
+    at POST (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:84:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T15:11:07.446Z ERROR  SQL execution error:
+Error: supabase.rpc(...).catch is not a function
+Stack: TypeError: supabase.rpc(...).catch is not a function
+    at executeSql (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:347:17)
+    at POST (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:109:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T15:11:07.491Z ERROR  SQL execution error:
+Error: supabase.rpc(...).catch is not a function
+Stack: TypeError: supabase.rpc(...).catch is not a function
+    at executeSql (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:347:17)
+    at POST (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:137:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T15:11:07.532Z ERROR  SQL execution error:
+Error: supabase.rpc(...).catch is not a function
+Stack: TypeError: supabase.rpc(...).catch is not a function
+    at executeSql (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:347:17)
+    at POST (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:164:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T15:11:08.007Z ERROR  SQL execution error:
+Error: supabase.rpc(...).catch is not a function
+Stack: TypeError: supabase.rpc(...).catch is not a function
+    at executeSql (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:347:17)
+    at POST (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:249:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-18T15:11:08.045Z ERROR  SQL execution error:
+Error: supabase.rpc(...).catch is not a function
+Stack: TypeError: supabase.rpc(...).catch is not a function
+    at executeSql (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:347:17)
+    at POST (webpack-internal:///(rsc)/./src/app/api/fix-database/route.ts:270:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async AppRouteRouteModule.do (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:26:41338)
+    at async doRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1915:28)
+    at async DevServer.renderPageComponent (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:2440:32)
+    at async DevServer.pipeImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/next-server.js:305:17)
+    at async DevServer.handleRequestImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/base-server.js:899:17)
+    at async /Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:371:20
+    at async Span.traceAsyncFn (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/dev/next-dev-server.js:368:24)
+    at async invokeRender (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/router-server.js:452:13)
+    at async Server.requestListener (/Users/rellonaut/Projects/sop_maker/node_modules/next/dist/server/lib/start-server.js:158:13)
+---
+2025-04-19T10:25:59.060Z ERROR  Error enabling UUID extension:
+Error: undefined
+Stack: undefined
+---
+2025-04-19T11:11:53.710Z ERROR  Error enabling UUID extension:
+Error: undefined
+Stack: undefined
+---
